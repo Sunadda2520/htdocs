@@ -6,7 +6,7 @@ $pass = "";
 $db   = "student_db";
 
 // ===== Connect Database =====
-$conn = new mysqli($host, $user, $pass, $db);
+$conn = new mysqli($host, $user, $pass, $db ,'3307');
 
 // Check connection
 if ($conn->connect_error) {
